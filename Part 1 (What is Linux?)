@@ -1,0 +1,81 @@
+LINUX PART 1
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[WHAT IS IT?]
+Linux is a broad term for operating systems that run on UNIX (another operating system). 
+This makes LINUX fit for all purposes and users computing power. For exemple Ubuntu and debian are the most common, 
+you can run servers with ubuntu with as little 512MB of RAM.
+This is as similar as windows 7, 8, 10
+
+[WHERE IS LINUX?]
+- Websites you visit
+- car entertrainement/control pannels
+- Point Of Sale (PoP) chekouts, register chops
+- traffic lights, industrial sencors
+
+[LINUX DISTRO-BUTIONS(OR FLAVORS)]
+The name "Linux" is actually an umbrella term for multiple OS's that are based on UNIX (another operating system). 
+Thanks to UNIX being open-source, variants of Linux comes in all shapes and sizes - suited best for what the system is being used for.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BEGINNER FRIENDLY:             
+                               
+Ubuntu                       
+Pop!_OS                         
+Elementary OS
+Linux Mint
+Zarin
+Solus
+
+INTERMEDIATE:
+
+Garuda Linux
+EndeavourOS
+Manjaro
+MX Linux
+fedora
+OpenSUSE
+
+HARD MODE:
+
+Arch
+Gentoo
+Slackware
+L:inux from scratch
+Quebes Os
+NixOS
+                    
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[CONNECTING TO OUR LAB]
+NOTE: This is not my machine it is one of the overthewire games and I use it as exemple.
+
+[CONNECTING FROM WINDOWS]
+you can do this in cmd.exe or powershell.
+
+[HOW DO WE CONNECT?]
+ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine. 
+It is intended to provide secure encrypted communications between two untrusted hosts over an insecure network. 
+X11 connections, arbitrary TCP ports and UNIX sockets can also be forwarded over the secure channel.
+ssh connects and logs into the specified hostname (with optional user name). 
+The user must prove his/her identity to the remote machine using one of several methods (see below).
+If command is specified, it is executed on the remote host instead of a login shell. 
+
+COMMAND: "ssh -p 2220 bandit0@bandit.labs.overthewire.org" 
+NOTE:Password = "bandit0", it also might ask you if you are sure if you want to continue say yes.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[OUR FIRST COMMANDS!]
+[FLAGS AND SWITCHES]
+"--help <command>" = get help 
+"man <command>" = manual pages
+NOTE: these command will be used alot for looking up command and learning how to use them.
+
+"echo 'This is my first time using linux!'" = display a line of text
+"whoami" = outputs current user
+
+
+
