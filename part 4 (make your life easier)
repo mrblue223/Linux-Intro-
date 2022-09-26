@@ -1,0 +1,21 @@
+[TERMINAL TEXT EDITORS]
+
+Nano and Vim(btw no one knows how to close vim :q)
+
+NANO
+To create a file with nano "nano <files name>"
+- searching for text
+- copying and pasting
+- jumping to a line number
+- finding out what line number you are o
+
+VIM
+Vim is a much more capable text editor then nano. So knowing it is a good thing for your linux skills.
+- Modifiy the keyboard for you custumisation
+- syntax highlighting
+- VIM works on all terminals
+- alot of  cheatsheet
+
+[GENERAL UTTILITIES]
+If you want to download anithing from programs, scripts, pictures use, "wget"
+This command allows us to download files from the web via HTTP -- as if your accessing a file from your browser. We just need the addresse of the source.
