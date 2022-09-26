@@ -1,0 +1,42 @@
+[FILE SYSTEM]
+/bin = basic programs
+- Short for etcetera or etsy is here to store system files used by the OS
+- The sudoers files highlighted below contains the list of users an groups that have the permissions to run sudo or set commands as the root user.
+- passwd, shadow files are very special for Linux because it shows how your system stores passwords for each user, encrypted formatting called "sha512"
+
+/boot = linux kernel, needed for early boot process
+
+/dev = Device files
+
+/etc = Configuration file
+
+/home = users personal files
+
+/lib = basic libraries
+
+/media = Mount points for removable (CD/DVD-ROM, USB keys, and so on)
+
+/mnt = Temporary mount point
+
+/opt =  Extra applications provided by third parties
+
+/root = Administrators (root's) personal files
+- Administrators (root's) personal files
+Unlike the "/home" directory the "/root" folder is actually the home for the "root" system user. This user would have their data in the directory called "/home/root"
+
+/run = Volatile runtime data does not persist across reboots (not yet included in the FHS(files system hierarchy))
+
+/sbin =  System programmes (these are typically only seen by the admin)
+
+/srv = Data used by servers hosted on the system
+
+/tmp = Temporary files (this directory is often emptied at boot)
+- Temporary files (this directory is often emptied at boot)
+This unique root directory found on LINUX install. Is short for "temporary" the "/tmp" directory is used to store data that is only needed to access once or twice. Like RAM once the computer is restarted, the contents of this folder are cleared out. "/tmp" is a good place too store enumeration scripts
+
+/usr = Applications (this directory is further subdivided into bin, sbin, lib according to the same logic as in the root directory) Furthermore, /usr/share/ contains architecture-independent data. The /usr/local/ directory is meant to be used by the admin for installing apps manually without overwriting files handled by the packaging system (dpkg)
+
+/var = Variable data handled by the servers. This includes log files, queues, spools, and caches.
+- This directories stand for variable data, this is one of the main root folders. This folder is frequently accessed or written by services or applications on the directories. For example, log files from running services and applications are written here (/var/log), or other data that is not necessarily associated with a specific user (i.e., databases and the like).
+
+/proc = /proc/ and /sys/ are specific to the Linux kernel (and not part of the FHS). They are used by the kernel for exporting data to user space.
