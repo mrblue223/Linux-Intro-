@@ -1,0 +1,35 @@
+[INTERACTING WITH THE FILE SYSTEM]
+ls = listing files, folders, directories
+cd = change directory
+cat(Create single or multiple files, view the content of a file, con(cat)enate files, redirect output in the terminal or files) = concatenate
+pwd = print working dierectory
+find = find a file or directory
+grep = Allows us to search the content of a file for something specific
+&& = attach two commands
+
+[CREATE FILES & FOLDERS & DELETE FILES AND FOLDERS]
+touch = create a file
+mkdir = make directories
+cp = copy
+mv = move
+rm = remove (with -r remove directories)
+
+[SHELL OPERATORS]
+& = run commands in the background
+&& = attach commands toghther
+> = This operator is a redirector, take the output of a command like "cat" to output a file and direct it somewhere
+>> = This operator does the same as ">" but appends the output
+
+[PERMISIONS]
+https://cdn.thegeekdiary.com/wp-content/uploads/2017/11/Files-permissions-and-ownership-basics-in-Linux.png
+
+[MANAGING PROCCESSES]
+The "ps aux" command list the processes currently running and helps the user identifies them by showing there PID(Process identification number).  Once u know the number this command
+"-signal pid" is used to terminate it allows you to send it as a signal (if its yours). This is most commonly used are TERM(a request to terminate gracefully) and KILL (a forced kill).
+The command interpreter that runs in the background, if followed by "&" you resume immediate control of the shell
+- user file changes the owner of the file  "chown"
+- the groups file changers owner "chgrp"
+- the rights of a file changes its permissions "chmod"
+(https://www.bing.com/videos/search?q=managing+processes+youtube+linux&qpvt=managing+processes+youtube+linux&view=detail&mid=B90C3F7D2619A6996D41B90C3F7D2619A6996D41&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dmanaging%2Bprocesses%2Byoutube%2Blinux%26qpvt%3Dmanaging%2Bprocesses%2Byoutube%2Blinux%26FORM%3DVDRE)
+
+NOTE: Many commands allow for flags and switches EXP: ls -l
