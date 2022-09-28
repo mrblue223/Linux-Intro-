@@ -40,3 +40,7 @@ This unique root directory found on LINUX install. Is short for "temporary" the 
 - This directories stand for variable data, this is one of the main root folders. This folder is frequently accessed or written by services or applications on the directories. For example, log files from running services and applications are written here (/var/log), or other data that is not necessarily associated with a specific user (i.e., databases and the like).
 
 /proc = /proc/ and /sys/ are specific to the Linux kernel (and not part of the FHS). They are used by the kernel for exporting data to user space.
+
+[What is the filesystem, and directory structure and more!] : [https://www.partitionwizard.com/partitionmagic/linux-file-system.html] 
+[ Linux filesystem youtube] : [https://www.youtube.com/watch?v=HbgzrKJvDRw]
+[ If your interested in security] : [https://www.youtube.com/playlist?list=PLBf0hzazHTGMG7fJvZoAAw-JE3WyMIOQv]
