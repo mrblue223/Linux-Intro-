@@ -1,11 +1,13 @@
-[INTERACTING WITH THE FILE SYSTEM]
+[INTERACTING WITH THE FILE SYSTEM] : [https://stackoverflow.com/questions/44990909/how-linux-system-calls-interact-with-filesystem]
 ls = listing files, folders, directories
-cd = change directory
+cd = change directory & bring you into /home/user
+cd .. = go back
 cat(Create single or multiple files, view the content of a file, con(cat)enate files, redirect output in the terminal or files) = concatenate
 pwd = print working dierectory
 find = find a file or directory
 grep = Allows us to search the content of a file for something specific
 && = attach two commands
+[more commands :) ] : [https://www.hostinger.com/tutorials/linux-commands]
 
 [CREATE FILES & FOLDERS & DELETE FILES AND FOLDERS]
 touch = create a file
@@ -13,6 +15,8 @@ mkdir = make directories
 cp = copy
 mv = move
 rm = remove (with -r remove directories)
+[more ways on doing it!] : [https://linuxize.com/post/create-a-file-in-linux/]
+
 
 [SHELL OPERATORS]
 & = run commands in the background
@@ -21,7 +25,26 @@ rm = remove (with -r remove directories)
 >> = This operator does the same as ">" but appends the output
 
 [PERMISIONS]
-https://cdn.thegeekdiary.com/wp-content/uploads/2017/11/Files-permissions-and-ownership-basics-in-Linux.png
+When you execute an “ls” command, you are not given any information about the security of the files, 
+because by default “ls” only lists the names of files. You can get more information by using an “option” with the “ls” command. 
+All options start with a ‘-‘. For example, to execute “ls” with the “long listing” option, you would type ls -l 
+- The first character will almost always be either a ‘-‘, which means it’s a file, or a ‘d’, which means it’s a directory.
+- The next nine characters (rw-r–r–) show the security; we’ll talk about them later.
+- The next column shows the owner of the file. In this case it is me, my userID is “aditya314”.
+- The next column shows the group owner of the file. In my case I want to give the “aditya314” group of people special access to these files.
+- The next column shows the size of the file in bytes.
+- The next column shows the date and time the file was last modified.
+- And, of course, the final column gives the filename.
+[UNDERSTANDING SECURITY PERMISSIONS]
+---   ---   ---
+rwx   rwx   rwx
+user  group other
+[READ, WRITE, EXECUTE, -]
+The ‘r’ means you can “read” the file’s contents. 
+The ‘w’ means you can “write”, or modify, the file’s contents. 
+The ‘x’ means you can “execute” the file. This permission is given only if the file is a program. 
+If any of the “rwx” characters is replaced by a ‘-‘, then that permission has been revoked. 
+[Ressource] : [https://cdn.thegeekdiary.com/wp-content/uploads/2017/11/Files-permissions-and-ownership-basics-in-Linux.png] : [https://www.geeksforgeeks.org/permissions-in-linux/]
 
 [MANAGING PROCCESSES]
 The "ps aux" command list the processes currently running and helps the user identifies them by showing there PID(Process identification number).  Once u know the number this command
@@ -33,3 +56,4 @@ The command interpreter that runs in the background, if followed by "&" you resu
 (https://www.bing.com/videos/search?q=managing+processes+youtube+linux&qpvt=managing+processes+youtube+linux&view=detail&mid=B90C3F7D2619A6996D41B90C3F7D2619A6996D41&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dmanaging%2Bprocesses%2Byoutube%2Blinux%26qpvt%3Dmanaging%2Bprocesses%2Byoutube%2Blinux%26FORM%3DVDRE)
 
 NOTE: Many commands allow for flags and switches EXP: ls -l
+[What is a flag?] : [https://www.compuhoy.com/what-is-flag-in-linux/] [Il let you google the other one :) ]
