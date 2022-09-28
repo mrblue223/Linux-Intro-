@@ -40,13 +40,15 @@ INTERMEDIATE:
 
 HARD MODE:
 
-Arch
-Gentoo
-Slackware
-L:inux from scratch
-Quebes Os
-NixOS
-                    
+[Arch] : [https://archlinux.org/]
+[Gentoo] : [https://www.gentoo.org/]
+[Slackware] : [http://www.slackware.com/]
+[L:inux from scratch] : [https://www.linuxfromscratch.org/] : [Build your own :) ]
+[Quebes Os] : [https://www.qubes-os.org/]
+[NixOS] : [https://nixos.org/]
+
+[NOTE] : [For virtual machines make sure u download an ISO file EXP:https://ubuntu.com/download/desktop/thank-you?version=22.04.1&architecture=amd64 [UBUNTU download]
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [CONNECTING TO OUR LAB]
