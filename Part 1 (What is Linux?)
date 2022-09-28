@@ -22,21 +22,21 @@ Thanks to UNIX being open-source, variants of Linux comes in all shapes and size
 
 BEGINNER FRIENDLY:             
                                
-Ubuntu                       
-Pop!_OS                         
-Elementary OS
-Linux Mint
-Zarin
-Solus
+[Ubuntu] : [https://ubuntu.com/]                       
+[Pop!_OS] : [https://pop.system76.com/]                         
+[Elementary OS] : [https://elementary.io/]
+[Linux Mint] : [https://linuxmint.com/]
+[Zarin] : [https://zorin.com/os/]
+[Solus] : [https://getsol.us/home/]
 
 INTERMEDIATE:
 
-Garuda Linux
-EndeavourOS
-Manjaro
-MX Linux
-fedora
-OpenSUSE
+[Garuda Linux] : [https://garudalinux.org/]
+[EndeavourOS] : [https://endeavouros.com/]
+[Manjaro] : [https://manjaro.org/]
+[MX Linux] : [https://mxlinux.org/]
+[fedora] : [https://getfedora.org/]
+[OpenSUSE] : [https://www.opensuse.org/]
 
 HARD MODE:
 
@@ -77,5 +77,28 @@ NOTE: these command will be used alot for looking up command and learning how to
 "echo 'This is my first time using linux!'" = display a line of text
 "whoami" = outputs current user
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+[VIRTUAL BOX,USB bootable,DUALBOOT,WSL,ETC]
 
+[VIRTUAL BOX] : [https://www.virtualbox.org/]
+What is this? you might be asking yourself it's a very powerfull tool and I sugest getting comfortable with it. 
+VirtualBox is a general-purpose full virtualizer
+for x86 hardware, targeted at server, desktop and embedded use.
+For a thorough introduction to virtualization and VirtualBox, please refer to the online version of the VirtualBox User Manual's first chapter.
+We can use this software to have a guest OS on our computer like linux!.
+
+[USB BOOTABLE] : [https://rufus.ie/en/]
+Rufus is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
+- you need to create USB installation media from bootable ISOs (Windows, Linux, UEFI, etc.)
+- you need to work on a system that doesn't have an OS installed
+- you need to flash a BIOS or other firmware from DOS
+- you want to run a low-level utility
+
+[DUAL BOOTING OR MULTI BOOTING]
+Multi-booting is the act of installing multiple operating systems on a single computer, and being able to choose which one to boot. 
+The term dual-booting refers to the common configuration of specifically two operating systems. Multi-booting may require a custom boot loader.
+
+[WSL] : [https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview]
+The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, 
+and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup.
