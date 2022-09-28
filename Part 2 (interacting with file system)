@@ -9,6 +9,8 @@ grep = Allows us to search the content of a file for something specific
 && = attach two commands
 [more commands :) ] : [https://www.hostinger.com/tutorials/linux-commands]
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 [CREATE FILES & FOLDERS & DELETE FILES AND FOLDERS]
 touch = create a file
 mkdir = make directories
@@ -17,12 +19,15 @@ mv = move
 rm = remove (with -r remove directories)
 [more ways on doing it!] : [https://linuxize.com/post/create-a-file-in-linux/]
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [SHELL OPERATORS]
 & = run commands in the background
 && = attach commands toghther
 > = This operator is a redirector, take the output of a command like "cat" to output a file and direct it somewhere
 >> = This operator does the same as ">" but appends the output
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 [PERMISIONS]
 When you execute an “ls” command, you are not given any information about the security of the files, 
@@ -46,6 +51,8 @@ The ‘x’ means you can “execute” the file. This permission is given only 
 If any of the “rwx” characters is replaced by a ‘-‘, then that permission has been revoked. 
 [Ressource] : [https://cdn.thegeekdiary.com/wp-content/uploads/2017/11/Files-permissions-and-ownership-basics-in-Linux.png] : [https://www.geeksforgeeks.org/permissions-in-linux/]
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 [MANAGING PROCCESSES]
 The "ps aux" command list the processes currently running and helps the user identifies them by showing there PID(Process identification number).  Once u know the number this command
 "-signal pid" is used to terminate it allows you to send it as a signal (if its yours). This is most commonly used are TERM(a request to terminate gracefully) and KILL (a forced kill).
@@ -57,3 +64,5 @@ The command interpreter that runs in the background, if followed by "&" you resu
 
 NOTE: Many commands allow for flags and switches EXP: ls -l
 [What is a flag?] : [https://www.compuhoy.com/what-is-flag-in-linux/] [Il let you google the other one :) ]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
