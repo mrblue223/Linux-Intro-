@@ -16,6 +16,58 @@ Vim is a much more capable text editor then nano. So knowing it is a good thing 
 - VIM works on all terminals
 - alot of  cheatsheet
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 [GENERAL UTTILITIES]
 If you want to download anithing from programs, scripts, pictures use, "wget"
 This command allows us to download files from the web via HTTP -- as if your accessing a file from your browser. We just need the addresse of the source.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[SCP]
+ It uses ssh(1) for data transfer, and uses the same authentication and provides the same security as a lo‐
+     gin session.
+
+     scp will ask for passwords or passphrases if they are needed for authentication.
+
+     The source and target may be specified as a local pathname, a remote host with optional path in the form
+     [user@]host:[path], or a URI in the form scp://[user@]host[:port][/path].  Local file names can be made ex‐
+     plicit using absolute or relative pathnames to avoid scp treating file names containing ‘:’ as host speci‐
+     fiers.
+[SERVING FILES ON YOUR HOST SYSTEM]
+Python3's "HTTPServer" will serve the files in the directory that you run the command,
+but this can be changed by providing options that can be found in the manual pages.
+Simply, all we need to do is run python3 -m  http.server to start the module!
+NOTE: we can use commands like "curl" & "wget" to download the hosted file.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[AUTOMATION]
+Users may want to schedule a certain action or task to take place after the system has booted. Take, for example, running commands, 
+backing up files, or launching your favourite programs on, such as Spotify or Google Chrome.
+
+We're going to be talking about the cron process, but more specifically, how we can interact with it via the use of crontabs. 
+Crontab is one of the processes that is started during boot, which is responsible for facilitating and managing cron jobs.
+
+[CRONJOB & CRONTAB] : [https://devconnected.com/cron-jobs-and-crontab-on-linux-explained/]
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[MAINTAINING YOUR SYSTEM]
+Whilst Operating System vendors will maintain their own repositories, you can also add community repositories to your list!
+This allows you to extend the capabilities of your OS. Additional repositories can be added by using the "add-apt-repository" 
+command or by listing another provider!
+For example, some vendors will have a repository that is closer to their geographical location.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[REMOVE PROGRAMES]
+"apt remove <programe>"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[UPDATES]
+"apt full-upgrade" #command downloads and updates packages. However, it also removes already installed packages if needed.
+"apt dist-upgrade" #command does the same as a regular upgrade while intelligently handling changing dependencies, removing obsolete packages, and adding new ones.
+"apt autoremove" #removes obsolete packages left after update
+
